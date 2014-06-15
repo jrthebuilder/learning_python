@@ -4,7 +4,6 @@ import redis                                    #import redis
 import tornado.ioloop                           #import tornado web server
 import tornado.web
 
-#some nchange
 
 #PRINT TO TORNADO 
 class MetarHandler(tornado.web.RequestHandler):
