@@ -8,7 +8,7 @@ metar_location = urllib2.urlopen('http://weather.aero/dataserver_current/httppar
 #metar_location = urllib2.urlopen('http://weather.aero/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&stationString=KDEN%20KSEA,PHNL&hoursBeforeNow=2')
 
 metar_xml = metar_location.read()
-
+###
 
 root = etree.fromstring (metar_xml)
 
